@@ -1,0 +1,82 @@
+#new-form_controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: white;
+}
+
+#new-form_control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+#new-form_control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+#amount {
+  background-color: black;
+  border: 1px solid var(--themecolor);
+  color: white;
+  border-radius: 25px;
+  box-shadow: 0 0 5px var(--themecolor);
+  outline: none;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+}
+#title {
+  background-color: black;
+  border: 1px solid var(--themecolor);
+  color: white;
+  border-radius: 25px;
+  box-shadow: 0 0 5px var(--themecolor);
+  outline: none;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+}
+#date {
+  background-color: black;
+  border: 1px solid var(--themecolor);
+  color: white;
+  border-radius: 25px;
+  box-shadow: 0 0 5px var(--themecolor);
+  outline: none;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+}
+#date:hover {
+  background-color: white;
+  color: black;
+}
+#add {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 5px solid var(--themecolor);
+  background-color: black;
+  box-shadow: 0 0 20px var(--themecolor), 0 0 10px var(--themecolor) inset;
+  color: var(--themecolor);
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+#cancel {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 5px solid var(--themecolor);
+  background-color: black;
+  box-shadow: 0 0 20px var(--themecolor), 0 0 10px var(--themecolor) inset;
+  color: var(--themecolor);
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+#new-form_actions {
+  text-align: right;
+}

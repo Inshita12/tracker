@@ -1,0 +1,15 @@
+.expenses {
+    padding: 1rem;
+    background-color: var(--contrastcolor);
+    border-radius: 15px;
+    box-shadow: 0 0 20px var(--themecolor);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+
+   
+  }
+p{
+  color: white;
+  text-align: center;
+}

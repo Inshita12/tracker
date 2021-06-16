@@ -1,0 +1,38 @@
+#new-expense {
+  background-color: var(--contrastcolor);
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 0 10px var(--themecolor);
+  text-align: center;
+}
+
+#new-expense #click {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 5px solid var(--themecolor);
+  background-color: black;
+  box-shadow: 0 0 20px var(--themecolor), 0 0 10px var(--themecolor) inset;
+  color: var(--themecolor);
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+#new-expense #click:hover,
+#new-expense #click:active {
+  box-shadow: 0 0 40px var(--themecolor), 0 0 10px var(--themecolor) inset;
+}
+
+#new-expense #click.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+#new-expense #click.alternative:hover,
+#new-expense #click.alternative:active {
+  background-color: #ddb3f8;
+}

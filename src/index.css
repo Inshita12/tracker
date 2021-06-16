@@ -1,0 +1,14 @@
+:root {
+  --themecolor: hsl(100.6 100% 54%);
+  --backgroundcolor: black;
+  --hovercolor: #aa0066;
+  --contrastcolor: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--backgroundcolor);
+  font-family: Comic Sans MS;
+  user-select: none;
+}
